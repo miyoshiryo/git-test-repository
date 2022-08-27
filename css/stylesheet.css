@@ -46,12 +46,16 @@ nav ul li a{
 .service_wrap{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .servive_left img{
     width: 80%;
     height: auto;
+}
+
+.servive_right{
+    margin-left: 40px;
 }
 
 .servive_right h3{
@@ -63,6 +67,24 @@ nav ul li a{
 .servive_right p{
     font-size: 15px;
     color: #555;
+}
+
+.button_application{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.button_application button{
+    background-color: rgb(251, 150, 62);
+    width: 100%;
+    height: auto;
+}
+
+.button_application a{
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
 }
 
 #news{
@@ -98,6 +120,7 @@ nav ul li a{
 .price_wrap table th{
     border: solid #000 2px;
     padding: 10px;
+    background-color: rgb(185, 185, 185);
 }
 
 .price_wrap table td{
@@ -105,8 +128,12 @@ nav ul li a{
     padding: 10px;
 }
 
+.price_column{
+    width: 10%;
+}
+
 #contact{
-    background: rgb(241, 241, 241);
+    background: rgb(185, 185, 185);
 }
 
 #contact h2{
